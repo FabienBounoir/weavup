@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Register Page</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="index.css" media="screen" type="text/css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <script src='assets/js/register.js'></script>
+</head>
+<body>
+    <header>
+        <nav style="margin-bottom: 3%;">
+            <img class="img-fluid" alt="Responsive image" src="./src/header-weavup.png" alt="header weavup">
+        </nav>
+    </header>
+
+        <div class="d-flex justify-content-center" style="margin-bottom: 2%;">
+            <div id=inscription class="container" >
+                <form class="form-horizontal" method="POST">
+                  <fieldset>
+                    <div id="legend">
+                      <h1>Register</h1>
+                    </div>
+                    <div class="control-group">
+                      <!-- Nom -->
+                      <label class="control-label"  for="lastName">nom :</label>
+                      <div class="controls">
+                        <input type="text" id="inputLastName" name="lastName" placeholder="Enter lastName" class="form-control">
+                      </div>
+                    </div>
+                    
+                    <div class="control-group">
+                      <!-- Prenom -->
+                      <label class="control-label"  for="firstName">prenom :</label>
+                      <div class="controls">
+                        <input type="text" id="inputFirstName" name="firstName" placeholder="Enter firstName" class="form-control">
+                      </div>
+                    </div>
+        
+                    <div class="control-group">
+                      <!-- E-mail -->
+                      <label class="control-label" for="email">E-mail :</label>
+                      <div class="controls">
+                        <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="Enter email">
+                      </div>
+                    </div>
+        
+                    <div class="control-group">
+                      <!-- Username -->
+                      <label class="control-label"  for="username">Username :</label>
+                      <div class="controls">
+                        <input type="text" id="inputUsername" name="username" placeholder="Enter username" class="form-control">
+                      </div>
+                    </div>
+                 
+                    <div class="control-group">
+                      <!-- Password-->
+                      <label class="control-label" for="password">Password :</label>
+                      <div class="controls">
+                        <input type="password" id="inputPassword" name="password" placeholder="Enter password" class="form-control">
+                      </div>
+                    </div>
+                 
+                    <div class="control-group">
+                      <!-- Password -->
+                      <label class="control-label"  for="password_confirm">Confirm Password :</label>
+                      <div class="controls">
+                        <input type="password" id="inputConfirmPassword" name="password_confirm" placeholder="Confirm password" class="form-control">
+                      </div>
+                    </div>
+        
+                    <div id=messageRegister class="control-group">
+        
+                    </div>
+        
+                    <div class="control-group">
+                      <!-- Button -->
+                      <div class="controls">
+                        <a id=buttonRegister class="btn btn-success text-white">Register</a>
+                      </div>
+                    </div>
+                  </fieldset>
+                </form>
+              </div>
+        
+        </div>
+
+
+
+    <div class="text-center"" style="background: #ff5722;">
+        <img class="img-fluid" alt="Responsive image" src="./src/footer-weavup.png" alt="footer weavup">
+    </div>
+</body>
+</html>
