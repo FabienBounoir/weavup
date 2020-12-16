@@ -1,4 +1,4 @@
-const url = "http://localhost:3000"  
+const url = "https://weavup.osc-fr1.scalingo.io"  
 
 const authentificationUrl = "/authentification"  //chemin pour tester le token de connexion
 

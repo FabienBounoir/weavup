@@ -1,4 +1,4 @@
-const url = "http://localhost:3000"     //server Adresse + port
+const url = "https://weavup.osc-fr1.scalingo.io"     //server Adresse + port
 
 const registerUrl = "/register"         //Chemin pour s'enregistrer
 
