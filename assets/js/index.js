@@ -15,9 +15,9 @@ function meteo()
 
     let ville = document.getElementById("ville").value;
 
-        var url = "http://api.openweathermap.org/data/2.5/weather?q="+ ville +"&units=metric&APPID=" + API_KEY
+        var urlmeteo = "https://api.openweathermap.org/data/2.5/weather?q="+ ville +"&units=metric&APPID=" + API_KEY
            
-        $.get(url, function(data) {
+        $.get(urlmeteo, function(data) {
             document.getElementsByClassName("widgetMeteo")[0].innerHTML = generateHtmlMeteo(data)
         })
 
